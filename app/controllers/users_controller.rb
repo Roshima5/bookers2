@@ -1,4 +1,4 @@
-class UserController < ApplicationController
+class UsersController < ApplicationController
   def index
     @usre = User.all  
   end
@@ -7,5 +7,7 @@ class UserController < ApplicationController
   end
 
   def edit
+    
   end
+ 
 end
